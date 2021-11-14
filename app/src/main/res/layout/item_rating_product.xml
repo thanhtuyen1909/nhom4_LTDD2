@@ -47,14 +47,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/view"
-            android:isIndicator="false"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
             android:layout_marginBottom="5dp"
-            android:stepSize="1"
-            android:rating="0" />
+            android:isIndicator="false"
+            android:rating="0"
+            android:stepSize="1" />
 
         <EditText
             android:id="@+id/comment"
@@ -77,6 +77,33 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/comment"
             android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list"
+            android:layout_margin="5dp"
+            android:background="@color/teal_200"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Phản hồi từ quản trị viên:"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_replycomment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@+id/textView" />
+        </RelativeLayout>
 
     </RelativeLayout>
 

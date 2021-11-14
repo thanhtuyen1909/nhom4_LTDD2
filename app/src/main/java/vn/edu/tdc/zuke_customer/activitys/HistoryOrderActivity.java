@@ -128,7 +128,7 @@ public class HistoryOrderActivity extends AppCompatActivity implements PopupMenu
                                 for (DataSnapshot node : snapshot.getChildren()) {
                                     OrderDetail orderDetail = node.getValue(OrderDetail.class);
                                     if (orderDetail.getOrderID().equals(key)) {
-                                        Rating rating1 = new Rating("", orderDetail.getProductID(), 0, key, "");
+                                        Rating rating1 = new Rating(key, "", "", orderDetail.getProductID(), 0);
                                         ratingRef.push().setValue(rating1);
                                     }
                                 }

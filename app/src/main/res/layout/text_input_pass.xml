@@ -37,20 +37,31 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textTitle" />
 
-        <EditText
-            android:id="@+id/edtPass"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginStart="30dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="30dp"
-            android:background="@drawable/rounded_border_edittext"
-            android:hint="Xác nhận mật khẩu"
-            android:inputType="textPassword"
-            android:paddingStart="5dp"
+            app:endIconDrawable="@drawable/show_password_selector"
+            app:endIconMode="password_toggle"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="Xác nhận mật khẩu"
+                android:inputType="textPassword"
+                android:paddingStart="5dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -29,12 +29,15 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_login_hero.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_register_hero.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_round_remove_red_eye_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_round_shopping_cart_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_round_visibility_off_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_side_bg.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/ic_succes.xml" value="0.1125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/item_banner.xml" value="0.1125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/item_selector.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/rounded_border_edittext.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/show_password_selector.xml" value="0.2203125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/drawable/title_error_background.xml" value="0.1125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/a.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/appbar.xml" value="0.20416666666666666" />
@@ -45,7 +48,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_category_product.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_catelogy_each_item.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_comment.xml" value="0.33" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_comment_1.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_comment_1.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_indecrease_button.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_notification.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/item_order.xml" value="0.25" />
@@ -71,7 +74,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_list.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_list_cart.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_list_cart_sm.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_login.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_login.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_map_activity.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_notification.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Zuke-Customer/app/src/main/res/layout/layout_otp_confirm.xml" value="0.20416666666666666" />

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RatingBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -63,6 +64,10 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
                                 holder.itemTime.setText(timeDiff(item.getCreated_at(), new Date()));
                                 if(!customer.getImage().equals("")) Picasso.get().load(customer.getImage()).fit().into(holder.itemImage);
                                 holder.itemRating.setRating(item.getRating());
+                                if(item.getReply() != null) {
+                                    holder.layout.setVisibility(View.VISIBLE);
+                                    holder.txtReply.setText(item.getReply().getReplyComment());
+                                }
                                 break;
                             }
                         }
@@ -113,9 +118,9 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-
+        RelativeLayout layout;
         ImageView itemImage;
-        TextView itemName, itemDetail, itemTime;
+        TextView itemName, itemDetail, itemTime, txtReply;
         RatingBar itemRating;
 
         public ViewHolder(View view) {
@@ -125,6 +130,8 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
             itemDetail = view.findViewById(R.id.txt_detail);
             itemTime = view.findViewById(R.id.txt_time);
             itemRating = view.findViewById(R.id.simpleRatingBar1);
+            layout = view.findViewById(R.id.layout);
+            txtReply = view.findViewById(R.id.txt_replycomment);
         }
     }
 }

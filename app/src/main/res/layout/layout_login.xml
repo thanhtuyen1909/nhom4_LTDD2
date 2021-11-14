@@ -51,6 +51,9 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputPassword"
             style="@style/parent"
+            app:passwordToggleEnabled="true"
+            app:endIconMode="password_toggle"
+            app:endIconDrawable="@drawable/show_password_selector"
             android:layout_marginTop="@dimen/loginViewsMargin">
 
             <EditText

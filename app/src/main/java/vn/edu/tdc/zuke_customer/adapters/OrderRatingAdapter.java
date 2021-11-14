@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RatingBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -80,6 +81,10 @@ public class OrderRatingAdapter extends RecyclerView.Adapter<OrderRatingAdapter.
         });
         holder.ratingBar.setRating(item.getRating());
         holder.txtComment.setText(item.getComment());
+        if(item.getReply() != null) {
+            holder.layout.setVisibility(View.VISIBLE);
+            holder.txtReply.setText(item.getReply().getReplyComment());
+        }
         // RecycleView:
         holder.recyclerView.setHasFixedSize(true);
         list = new ArrayList<String>();
@@ -131,10 +136,11 @@ public class OrderRatingAdapter extends RecyclerView.Adapter<OrderRatingAdapter.
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView imageView;
-        TextView txtName;
+        TextView txtName, txtReply;
         RecyclerView recyclerView;
         RatingBar ratingBar;
         EditText txtComment;
+        RelativeLayout layout;
 
         public ViewHolder(View view) {
             super(view);
@@ -143,6 +149,8 @@ public class OrderRatingAdapter extends RecyclerView.Adapter<OrderRatingAdapter.
             ratingBar = view.findViewById(R.id.simpleRatingBar);
             imageView = view.findViewById(R.id.img);
             txtName = view.findViewById(R.id.txt_name);
+            txtReply = view.findViewById(R.id.txt_replycomment);
+            layout = view.findViewById(R.id.layout);
         }
     }
 }
