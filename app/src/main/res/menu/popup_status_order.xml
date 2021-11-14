@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mAll"
+        android:title="Tất cả"/>
+    <item android:id="@+id/mChoXuLy"
+        android:title="Chờ xử lý"/>
+    <item android:id="@+id/mDangXuLy"
+        android:title="Đang xử lý"/>
+    <item android:id="@+id/mDangGiao"
+        android:title="Đang giao"/>
+    <item android:id="@+id/mDaNhanHang"
+        android:title="Đã nhận hàng"/>
+    <item android:id="@+id/mHuy"
+        android:title="Đã huỷ"/>
+</menu>

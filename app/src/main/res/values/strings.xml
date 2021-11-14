@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Zuke</string>
+
+    <string name="login_phone_hint">Số điện thoại</string>
+    <string name="login_password_hint">Mật khẩu</string>
+    <string name="login_confirm_password_hint">Nhập lại mật khẩu</string>
+    <string name="login_username_hint">Tên hiển thị</string>
+    <string name="login_email_hint">Địa chỉ email</string>
+    <string name="change_new_password_hint">Mật khẩu mới</string>
+    <string name="payment_address_hint">Địa chỉ</string>
+    <string name="payment_name_hint">Họ tên khách hàng</string>
+    <string name="payment_discount_hint">Mã giảm giá</string>
+    <string name="payment_message_hint">Ghi chú</string>
+    <string name="name">ZUKE</string>
+    <string name="text">Chào mừng \nquay trở lại</string>
+    <string name="forgot_password_text">Quên mật khẩu?</string>
+    <string name="login">Đăng nhập</string>
+    <string name="change_pass">Thay đổi mật khẩu</string>
+    <string name="register">Đăng ký</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="otp_send">Gửi mã OTP</string>
+    <string name="otp_confirm">Xác nhận mã OTP</string>
+    <string name="resend_otp">Bạn không nhận được mã? Gửi lại</string>
+    <string name="register_text">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="orther_methods">Phương thức đăng nhập khác</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="profile">Thông tin cá nhân</string>
+    <string name="nameshow">Tên hiển thị</string>
+    <string name="phone">0815 *** **</string>
+    <string name="ddm">Đơn đã mua</string>
+    <string name="dht">Đơn hoàn thành</string>
+    <string name="ddh">Đơn đã huỷ</string>
+    <string name="historyorder">Lịch sử đặt hàng</string>
+    <string name="support">Hỗ trợ</string>
+    <string name="introduce">Giới thiệu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="IntroTittle">Ứng dụng mua hàng điện tử</string>
+    <string name="introHotline">Hotline: 0123456789</string>
+    <string name="introAddress">Địa chỉ văn phòng: 53 Võ Văn Ngân, p.Linh Chiểu, tp.Thủ Đức, tp. HCM</string>
+    <string name="introTarget">Mục tiêu: </string>
+    <string name="introTargetDecription">Thái độ của mọi người và hành động của họ đối với một sự vật là do niềm tin của họ về sự vật đó quyết định rất nhiều. Hình ảnh là một tập hợp những niềm tin, ý tưởng và ấn tượng của một người về sự vật. Lượng hóa sự chấp nhận của công chúng mục tiêu về sự vật đó bằng thước đo mức độ quen thuộc như sau: Chưa hề nghe thấy, mới chỉ nghe thấy, có biết đôi chút, biết khá nhiều, biết rất rõ, mua, mua lặp lại, mua nhiều.</string>
+    <string name="subtitleSP">Danh sách sản phẩm</string>
+    <string name="subtitleSearch">Kết quả: 4 sản phẩm</string>
+    <string name="mota">Mô tả:</string>
+    <string name="namesp">Sản phẩm 1</string>
+    <string name="price_main">980.000 đ</string>
+    <string name="sold">Đã bán 129</string>
+    <string name="price">820.000 đ</string>
+    <string name="motasp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor vulputate elit non mollis. Aliquam sed sagittis lacus, id sollicitudin tellus. Pellentesque viverra tincidunt neque, sit amet imperdiet ipsum eleifend et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et pulvinar tellus. Fusce a lacinia nibh. Fusce fermentum mollis condimentum. Donec scelerisque tristique elit at consectetur. Nam ullamcorper eget urna sed dictum. Suspendisse venenatis, tortor tempor sollicitudin condimentum, orci magna accumsan velit, sed fringilla massa massa ut justo. Sed sit amet elit metus. Aliquam cursus lobortis enim. Vivamus ut fermentum risus. Nam ac ultricies ante. Aliquam sit amet velit luctus, malesuada quam sed, maximus risus. Curabitur id arcu non risus consectetur mollis. Nullam fermentum quis diam vitae facilisis.</string>
+    <string name="rating">ĐÁNH GIÁ SẢN PHẨM</string>
+    <string name="splienquan">Sản phẩm liên quan</string>
+
+    <string-array name="mau">
+        <item>Màu 1</item>
+        <item>Màu 2</item>
+    </string-array>
+
+    <string-array name="thuonghieu">
+        <item>Asus</item>
+        <item>Acer</item>
+    </string-array>
+
+    <string-array name="initial_slider_values">
+        <item>20.0</item>
+        <item>70.0</item>
+    </string-array>
+
+    <string name="delete">Xoá</string>
+    <string name="api_key">AIzaSyBFY4VjmflzQlWy-MFdum-U8WwHk6_Lkng</string>
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <string name="facebook_app_id">876594193035827</string>
+
+    <!-- Dialog -->
+    <string name="titleUpdate">Cập nhật</string>
+    <string name="titleAdd">Thêm</string>
+    <string name="title">THÔNG BÁO</string>
+    <string name="okay">OK</string>
+    <string name="yes">XÁC NHẬN</string>
+    <string name="no">HUỶ</string>
+    <string name="title9">Chi tiết sản phẩm</string>
+    <string name="title10">Chi tiết mã giảm giá</string>
+    <string name="doimk">Đổi mật khẩu</string>
+
+    <!--  Dialog  -->
+    <string name="titlePercent">Cập nhật</string>
+    <string name="warning">warning</string>
+    <string name="error">error</string>
+    <string name="thanks">Cảm ơn những đánh giá từ bạn. Chúng tôi sẽ tích cực hơn nữa để làm hài lòng những khách hàng đã yêu mến sử dụng dịch vụ của chúng tôi!</string>
+    <string name="title11">Chi tiết hoá đơn</string>
+    <string name="message_service_token">AAAA0auJzuI:APA91bEld4l6eHpB7gbWus6Qe8lRZtI68egF107W-Tejx02IqwBirpYSx3Hrizsh9m5gC8I-CpGKI-86TmMfWnSQ8v4g-h4gvoKLtidMIRGSAfrM0wb49x29abYWWcNUQ8jlK3CMBj7p</string>
+
+    <!-- Support -->
+    <string name="question1">Không thể đăng nhập?</string>
+    <string name="answer1">Bạn có thể lấy lại quyền truy cập tài khoản bằng cách chọn vào quên mật khẩu tại màn hình đăng nhập, sau đó tiến hành nhập số điện thoại và xác nhận mã OTP đã được gửi đến. Nếu vẫn không thể đăng nhập vui lòng liên hệ ngay với chúng tôi qua hotline: 0123 345 567</string>
+    <string name="question2">Đổi mật khẩu?</string>
+    <string name="answer2">Tại màn hình cá nhân, chọn vào ">" tại thông tin tài khoản rồi chọn vào "Thay đổi mật khẩu".</string>
+    <string name="question3">Sản phẩm bị lỗi?</string>
+    <string name="answer3">Nếu sản phẩm của bạn bị lỗi và vẫn còn trong thời hạn bảo hành thì mong bạn hãy đưa món đồ đó đến cửa hàng của chúng tôi hoặc liên hệ qua hotline: 0123 345 567 để được tư vấn rõ nhất về các bước "hoàn trả - bảo hành" sản phẩm.</string>
+    <string name="question4">Đơn hàng vẫn chưa được gửi tới?</string>
+    <string name="answer4">Chúng tôi sẽ gửi đơn hàng đến sớm nhất cho các bạn. Hoặc bạn có thể liên hệ qua hotline: 0123 345 567 để được tư vấn viên giải đáp kĩ càng nhất về vấn đề đơn hàng của bạn.</string>
+    <string name="question5">Hoàn trả đơn hàng?</string>
+    <string name="answer5">Chúng tôi có chính sách hoàn trả đơn hàng miễn phí 100% trong 3 ngày trừ trường hợp bị hư hỏng, thiệt hại từ phía cá nhân khách hàng sử dụng.</string>
+    <string name="question6">Chính sách khuyến mãi</string>
+    <string name="answer6">Chúng tôi luôn có những chính sách khuyễn mãi hấp dẫn nhằm tri ân khách hàng đã tin tưởng và ửng hộ Zuke như: Ưu đãi khách hàng theo sinh nhật, Ưu đãi khách hàng theo loại khách hàng,... Mong bạn hãy tiếp tục theo dõi và ủng hộ chúng tôi. Xin cảm ơn!</string>
+    <string name="question7">Phương thức thanh toán</string>
+    <string name="answer7">Chúng tôi đảm bảo phương thức thanh toán luôn an toàn, đó là giao dịch trực tiếp khi bạn nhận hàng.</string>
+    <string name="question8">Khoá tài khoản?</string>
+    <string name="answer8">Nếu bạn vi phạm các quy tắc quá nhiều chúng tôi sẽ khoá tài khoản của bạn. Ví dụ vi phạm: huỷ đơn hàng quá nhiều lần, cố tình gây rối, phá hoại ứng dụng,... Nếu trong trường hợp bạn không vi phạm mà bị khoá thì hãy liên hệ với chúng tôi.</string>
+    <string name="question9">Khiếu nại sản phẩm?</string>
+    <string name="answer9">Bạn hãy liên hệ với trực tiếp với chúng tôi hoặc qua hotline: 0123 345 567 chúng tôi luôn đảm bảo quyền lợi ưu tiên nhất cho bạn về chất lượng sản phẩm và dịch vụ.</string>
+    <string name="question10">Chính sách cho khách hàng</string>
+    <string name="answer10">Chúng tôi luôn nỗ lực mang đến sự hài lòng cho khách hàng bằng phong cách phục vụ tận tình, thấu hiểu và tinh tế. Với đội ngũ nhân viên tư vấn bán hàng chuyên nghiệp, các chuyên gia kĩ thuật trong ngành, Zuke đảm bảo cung cấp cho khách hàng những thông tin trung thực về sản phẩm cũng như những giải pháp tốt nhất về các vấn đề phát sinh xung quanh sản phẩm.</string>
+
+
+    <string name="dob">Ngày sinh</string>
+    <string name="titleDMSP">Danh mục sản phẩm</string>
+    <string name="titleDHCT">Đơn hàng của tôi</string>
+    <string name="titleDGSP">Đánh giá sản phẩm</string>
+    <string name="titleHT">Hỗ trợ</string>
+    <string name="titleCSTTCN">Chỉnh sửa thông tin cá nhân</string>
+    <string name="titleTDMK">Thay đổi mật khẩu</string>
+    <string name="titleDSYT">Danh sách yêu thích</string>
+    <string name="titleTB">Thông báo</string>
+    <string name="titleGH">Giỏ hàng</string>
+    <string name="titleTK">Tìm kiếm</string>
+    <string name="titleTT">Thanh toán</string>
+    <string name="titleDSBL">Danh sách bình luận</string>
+    <string name="titleCTSP">Chi tiết sản phẩm</string>
+</resources>

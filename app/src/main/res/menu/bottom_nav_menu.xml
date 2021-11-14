@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mHome"
+        android:title="Trang chủ"
+        android:icon="@drawable/ic_round_home_24"/>
+    <item android:id="@+id/mCategory"
+        android:title="Danh mục"
+        android:icon="@drawable/ic_round_category_24"/>
+    <item android:id="@+id/mCart"
+        android:title=""
+        />
+    <item android:id="@+id/mFavorite"
+        android:title="Yêu thích"
+        android:icon="@drawable/ic_round_favorite_24"/>
+
+    <item android:id="@+id/mProfile"
+        android:title="Cá nhân"
+        android:icon="@drawable/ic_round_account_circle_24"/>
+</menu>
